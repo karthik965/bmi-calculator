@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juice Shop</title>
+	<link rel="stylesheet" type="text/css" href="sample.css">
+</head>
+<body>
+	<h1>Welcome to our Juice Shop! Give yourself a boost!</h1>
+	<form id="juice-form">
+		<label for="apple-juice">Apple Juice - $5:</label><br>
+		<input type="number" id="apple-juice" name="apple-juice" value="0"><br>
+		<label for="orange-juice">Orange Juice - $6:</label><br>
+		<input type="number" id="orange-juice" name="orange-juice" value="0"><br>
+		<input type="button" class="button" value="Add to cart" id="add-to-cart">
+	</form>
+	<div id="cart">
+		<h2>Cart:</h2>
+		<ul id="cart-items"></ul>
+		<p id="cart-total"></p>
+	</div>
+	<button id="checkout" class="button1">Checkout</button>
+	<div id="receipt" style="display:none;">
+		<h2>Receipt:</h2>
+		<p id="receipt-name"></p>
+		<ul id="receipt-items"></ul>
+		<p id="receipt-subtotal"></p>
+		<p id="receipt-tax"></p>
+		<p id="receipt-total"></p>
+	</div>
+	<script src="sample.js"></script>
+</body>
+</html>
