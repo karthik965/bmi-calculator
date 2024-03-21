@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>DietPlan.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+DietPlan.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com.healthycoderapp</span><span class="s0">;</span>
+
+<span class="s0">public class </span><span class="s1">DietPlan {</span>
+	<span class="s0">private int </span><span class="s1">calories</span><span class="s0">;</span>
+	<span class="s0">private int </span><span class="s1">protein</span><span class="s0">;</span>
+	<span class="s0">private int </span><span class="s1">fat</span><span class="s0">;</span>
+	<span class="s0">private int </span><span class="s1">carbohydrate</span><span class="s0">;</span>
+	
+	<span class="s0">public </span><span class="s1">DietPlan(</span><span class="s0">int </span><span class="s1">calories</span><span class="s0">, int </span><span class="s1">protein</span><span class="s0">, int </span><span class="s1">fat</span><span class="s0">, int </span><span class="s1">carbohydrate) {</span>
+		<span class="s0">super</span><span class="s1">()</span><span class="s0">;</span>
+		<span class="s0">this</span><span class="s1">.calories = calories</span><span class="s0">;</span>
+		<span class="s0">this</span><span class="s1">.protein = protein</span><span class="s0">;</span>
+		<span class="s0">this</span><span class="s1">.fat = fat</span><span class="s0">;</span>
+		<span class="s0">this</span><span class="s1">.carbohydrate = carbohydrate</span><span class="s0">;</span>
+	<span class="s1">}</span>
+	
+	<span class="s1">@Override</span>
+	<span class="s0">public </span><span class="s1">String toString() {</span>
+		<span class="s0">return </span><span class="s2">&quot;Diet [calories=&quot; </span><span class="s1">+ calories + </span><span class="s2">&quot;, protein=&quot; </span><span class="s1">+ protein + </span><span class="s2">&quot;, fat=&quot; </span><span class="s1">+ fat + </span><span class="s2">&quot;, carbohydrate=&quot;</span>
+				<span class="s1">+ carbohydrate + </span><span class="s2">&quot;]&quot;</span><span class="s0">;</span>
+	<span class="s1">}</span>
+
+	<span class="s0">public int </span><span class="s1">getCalories() {</span>
+		<span class="s0">return </span><span class="s1">calories</span><span class="s0">;</span>
+	<span class="s1">}</span>
+	<span class="s0">public void </span><span class="s1">setCalories(</span><span class="s0">int </span><span class="s1">calories) {</span>
+		<span class="s0">this</span><span class="s1">.calories = calories</span><span class="s0">;</span>
+	<span class="s1">}</span>
+	<span class="s0">public int </span><span class="s1">getProtein() {</span>
+		<span class="s0">return </span><span class="s1">protein</span><span class="s0">;</span>
+	<span class="s1">}</span>
+	<span class="s0">public void </span><span class="s1">setProtein(</span><span class="s0">int </span><span class="s1">protein) {</span>
+		<span class="s0">this</span><span class="s1">.protein = protein</span><span class="s0">;</span>
+	<span class="s1">}</span>
+	<span class="s0">public int </span><span class="s1">getFat() {</span>
+		<span class="s0">return </span><span class="s1">fat</span><span class="s0">;</span>
+	<span class="s1">}</span>
+	<span class="s0">public void </span><span class="s1">setFat(</span><span class="s0">int </span><span class="s1">fat) {</span>
+		<span class="s0">this</span><span class="s1">.fat = fat</span><span class="s0">;</span>
+	<span class="s1">}</span>
+	<span class="s0">public int </span><span class="s1">getCarbohydrate() {</span>
+		<span class="s0">return </span><span class="s1">carbohydrate</span><span class="s0">;</span>
+	<span class="s1">}</span>
+	<span class="s0">public void </span><span class="s1">setCarbohydrate(</span><span class="s0">int </span><span class="s1">carbohydrate) {</span>
+		<span class="s0">this</span><span class="s1">.carbohydrate = carbohydrate</span><span class="s0">;</span>
+	<span class="s1">}</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
